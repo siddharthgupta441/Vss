@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/vector_home"
+            android:title="Home"/>
+        <!--<item android:id="@+id/nav_services"
+            android:title="Services"
+            android:icon="@drawable/vector_services" />-->
+        <item android:id="@+id/nav_contactUs"
+            android:icon="@drawable/vector_conctactus"
+            android:title="ContactUs"/>
+        <item android:id="@+id/nav_aboutUs"
+            android:icon="@drawable/vector_aboutus"
+            android:title="AboutUs"/>
+    </group>
+    <item android:title="Services">
+        <menu>
+            <item android:id="@+id/nav_washing"
+                android:title="Washing"
+                android:icon="@drawable/vector_washing"/>
+            <item android:id="@+id/nav_servicing"
+                android:title="Servicing"
+                android:icon="@drawable/vector_services"/>
+        </menu>
+    </item>
+    <item android:title="other">
+        <menu>
+            <item android:id="@+id/nav_login"
+                android:icon="@drawable/vector_login"
+                android:title="LogIn"/>
+        </menu>
+    </item>
+</menu>

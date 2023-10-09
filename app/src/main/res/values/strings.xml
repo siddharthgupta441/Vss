@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Vss</string>
+    <string name="title_activity_google_map">google_map</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="search_company_name">Search company name</string>
+    <string name="washing">Washing</string>
+    <string name="servicing">Servicing</string>
+    <string name="img_servicing">img_servicing</string>
+    <string name="others">Others</string>
+    <string name="didn_t_register_yet">Didn\'t register yet</string>
+    <string name="click_below_to_register">click below to register</string>
+    <string name="register">Register</string>
+    <string name="img_washing">img_washing</string>
+</resources>
